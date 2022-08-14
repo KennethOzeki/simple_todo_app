@@ -11,7 +11,7 @@ type ConfigList struct {
 
 var Config ConfigList
 
-func ini() {
+func init() {
 	LoadConfig()
 }
 
